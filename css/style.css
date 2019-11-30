@@ -1,0 +1,82 @@
+
+.sampul {
+	background-color: #FFFFF0;
+
+}
+
+.about {
+	background-color: #FFA500;
+}
+
+.hr {
+	width: 250px;
+	border-top: 3px solid #999;
+}
+
+section{
+	min-height: 600px;
+}
+
+.contact{
+	min-height: 800px;
+	background-color: #7FFF00;
+}
+
+.portfolio {
+	background-color: #eee;
+}
+.footer{
+
+min-height: 20px;
+	background-color: 	#000000;	
+}
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+.wrapper{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  bottom: 50%;
+  filter: contrast(10);
+}
+
+@keyframes animate {
+  0%   { opacity: 0; filter: blur(30px)}
+  10%  { opacity: 0; }
+  90%  { opacity: 1; }
+}
+.text1{
+  animation: animate 6s infinite alternate-reverse;
+}
+.text2{
+  animation: animate 6s infinite alternate;
+}
+.efek-ketik
+        {
+            font-size: 30px;
+            width: 100%;
+            white-space:nowrap;
+            overflow:hidden;
+            -webkit-animation: ketik 5s steps(50, end);
+            animation: ketik 5s steps(50, end);
+        }
+ 
+        @keyframes ketik{
+            from { width: 0; }
+        }
+ 
+        @-webkit-keyframes ketik{
+            from { width: 0; }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
