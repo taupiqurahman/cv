@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TV Rusak</title>
+
+</head>
+<body>
+	<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+<script type="text/javascript">
+	function setup(){
+		createCanvas(windowWidth,windowHeight);
+	}
+	function draw(){
+		background(20);
+		noStroke();
+
+		for (let i=0; i<8000; i++){
+		rect(random(width), random(height), 4, 4);
+	}
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Animasi</title>
+	<link rel="stylesheet" type="text/css" href="css/stylepart1.css">
+</head>
+<body>
+
+	<h2 class="align-content-center" id="text">Be
+	<span style="display: initial;">Bold</span>
+	<span>Creative</span>
+	<span>Amazing</span>
+	<span>Unique</span>
+	<span>Cool</span>
+	<span>Awesome</span>
+	
+	</h2>
+<script type="text/javascript">
+	var text = document.getElementById('text');
+	var word = text.getElementsByTagName('span');
+
+	var i = 0;
+
+	function rotator()
+	{
+		word[i].style.display = 'none';
+		i = (i + 1) % word.length;
+		word[i].style.display = 'initial';
+	}
+	setInterval(rotator, 800);
+</script>
+</body>
+</html>

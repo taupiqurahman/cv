@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tes</title>
+			<link rel="stylesheet" href="css/style2.css">
+	</head>
+
+<body>
+	<div class="center">
+		<h1><span>2020</span><br>New Year Countdown</h1>
+		<div id="clock"></div>
+	</div>
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+	<script src="jquery.countdown.js"></script>
+	<script type="text/javascript">
+		$('#clock').countdown('2020/1/1', function(event){
+			var $this = $(this).html(event.strftime(''
+				+'<div><span>%w</span><span>Weeks</span></div>'
+				+'<div><span>%d</span><span>Days</span></div>'
+				+'<div><span>%H</span><span>Hr</span></div>'
+				+'<div><span>%M</span><span>Min</span></div>'
+				+'<div><span>%S</span><span>Sec</span></div>'
+				))
+		})
+	</script>
+
+</body>
+</html>
+
+
+ 

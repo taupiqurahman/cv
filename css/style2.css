@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,');
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-Serif;
+	background: #262626;
+}
+.center
+{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	text-align: center; 
+}
+h1
+{
+	text-align: center;
+	text-transform: uppercase; 
+		color: #fff;
+	font-size: 3em;
+
+}
+h1 span
+{
+	font-size: 4em;
+	line-height: .8em;
+
+}
+#clock
+{
+	display: flex;
+	width: 570px;
+	margin: 0 auto;
+}
+#clock div
+{
+	position: relative;
+	width: 100px;
+	padding: 20px;
+	margin: 0 5px;
+	background: #262626;
+	color: #fff;
+	border: 2px solid #000;
+}
